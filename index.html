@@ -3,20 +3,24 @@
     <head>
      <meta charset="UTF-8">
     <title>Enmanuel Herrera</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>   
+    <link href="style.css" rel="stylesheet" type="text/css"/>  
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro&display=swap" rel="stylesheet">
+
     <!--- navbar --->
-    <nav id = "nav">
+    <nav class = "nav">
     <h1>Enmanuel Herrera</h1>
     <ul>
-          <a href="#who"><li>WHO AM I  </li></a>
+        <a href="#who"><li>WHO AM I</li></a>
           <a href="#skill"><li>WHAT I DO </li></a>
           <a href="#hobbies"><li>WHAT I LIKE </li></a>
+       
     </ul>  
     </nav>
    </head>
   <main>
     <body>
-<section id = "who" >
+       
+<section class= "who" >
 <!--- introduction --->
 <h1>WHO AM I?</h1>
 <p>I am just a Junior WebDeveloper  who loves programming, and since i wrote my  first line of code i fell in love with Web Development.
@@ -27,7 +31,7 @@
 </section>
 
 <!-- my Skills -->
-<section id= "skill" >
+<section class= "skill" >
 <h2>Some of my coding skills are:</h2>
 <p>I just have experience with a small and basic number of many languages and coding tools that i want to  know in the future, because i think that every language is unique and
     useful for different situations, but currently i just have experience with a few ones which are the list below :</p>
@@ -36,7 +40,7 @@
     <li>Java Script(JS)</li>
 </ul>
 <h3>I am also learning how to use:</h3>
-<ul>
+<ul class="ul2">
    <li>Bootstrap</li>
    <li>JQuery</li> 
 </ul>
@@ -50,6 +54,8 @@
 </body>
 </main>
     <footer id="footer">
-        <h3>If you would like to contact me, follow me on my Social media accounts:</h3>
+        <h3>If you would like to contact me, follow me on my Social media accounts, or write me an email:</h3>
+ <input type="text" placeholder="Write me an e-mail " required >
+ <button type="submit" id="submit">Send</button>   
     </footer>
 </html>
