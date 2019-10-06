@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald|Source+Sans+Pro&display=swap" rel="stylesheet">
 
     <!--- navbar --->
-    <nav class = "nav">
+    <div id="nav">
     <h1>Enmanuel Herrera</h1>
     <ul>
         <a href="#who"><li>WHO AM I</li></a>
@@ -15,7 +15,7 @@
           <a href="#hobbies"><li>WHAT I LIKE </li></a>
        
     </ul>  
-    </nav>
+</div>
    </head>
   <main>
     <body>
@@ -53,9 +53,12 @@
 </section>   
 </body>
 </main>
-    <footer id="footer">
+    <footer class="footer">
         <h3>If you would like to contact me, follow me on my Social media accounts, or write me an email:</h3>
- <input type="text" placeholder="Write me an e-mail " required >
- <button type="submit" id="submit">Send</button>   
-    </footer>
+    <form> 
+
+        <input type="text" placeholder="Write me an e-mail " class="texto" required >
+ <button type="submit" class="submit">Send</button>   
+    </form>
+</footer>
 </html>
