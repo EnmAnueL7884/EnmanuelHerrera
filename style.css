@@ -7,14 +7,19 @@ body{
 /* body */
 
 /*navbar*/
-nav ul li{
+.nav{
+    background-color:red;
+    font-family:'Bitter', serif;
+}   
+
+.nav ul li{
     display: inline-block;
     padding-left: 1%;
     text-align: left;
 }
 
 
-nav ul li a{
+.nav ul li a{
     text-decoration: none;
     color:black;
 }
@@ -22,7 +27,7 @@ nav ul li a{
 /* who */
 #Who{
     background-color: aquamarine;
-    background-image: url("") ;
+    background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/NB-298_1400x.jpg?v=1565261020") ;
     background-size:cover;
     opacity: 0.9;
 }
@@ -123,9 +128,4 @@ margin-left:5%;
     font-family:  'Bitter', serif;
 }
 
-#texto{
-    font-size: 25px;
-    font-family: 'Muli', sans-serif; 
-    width: 50%;
-    margin: 1% 0% 5% 5%;  
-}
+
