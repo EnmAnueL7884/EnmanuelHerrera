@@ -2,13 +2,12 @@
 body{
     background-color:white;
     margin:0%;
-    padding: 0%;
 }
 /* body */
 
 /*navbar*/
 .nav{
-    background-color:red;
+    background-color: red;
     font-family:'Bitter', serif;
 }   
 
@@ -24,6 +23,13 @@ body{
     color:black;
 }
 
+.nav submit{
+    color:green;
+}
+
+.nav ul li a:hover{
+    color:red;
+}
 /* who */
 #Who{
     background-color: aquamarine;
