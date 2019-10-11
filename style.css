@@ -23,8 +23,9 @@ body{
     color:black;
 }
 
-.nav submit{
+.nav button{
     color:green;
+    border-radius:75%;
 }
 
 .nav ul li a:hover{
@@ -35,7 +36,7 @@ body{
     background-color: aquamarine;
     background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/NB-298_1400x.jpg?v=1565261020") ;
     background-size:cover;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 #who h1{
@@ -98,7 +99,6 @@ margin-left:5%;
     padding:1%;
     }
     
-
 
 #skill h3{
     font-size:25px;
