@@ -1,4 +1,4 @@
-
+I
 body{
     background-color:white;
     margin:0%;
@@ -32,7 +32,7 @@ body{
 /* who */
 #Who{
     background-color: aquamarine;
-    background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/NB-298_1400x.jpg?v=1565261020") ;
+    background-image:("https://static.vecteezy.com/system/resources/previews/000/544/071/non_2x/white-abstract-background-vector-gray-abstract-modern-design-background-for-report-and-project-presentation-template-vector-illustration-graphic-futuristic-and-circular-curve-shape.jpg") ;
     background-size:cover;
     opacity: 0.8;
 }
@@ -131,5 +131,4 @@ margin-left:5%;
     font-size:28px;
     font-family:  'Bitter', serif;
 }
-
 
