@@ -6,28 +6,23 @@ body{
 /* body */
 
 /*navbar*/
-.nav{
-    background-color: white-smoke;
-    font-family:'Bitter', serif;
-    overflow: hidden;
-    float: left;
-    position: absolute;
-}   
-
-  
-.nav ul li{
-    display: inline-block;
-    padding-left:1%; 
-}
-
 .nav ul li a{
     text-decoration: none;
-    color:black;
+    color: black;
+   
+}
+
+.nav ul{
+}
+.nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .nav button{
     background-color:rgb(98, 241, 98);
-    border-radius:10%;
+    border-radius:10% 5% 10% 5%;
     font-size: 15px;
 }
 .nav button:hover{
@@ -118,20 +113,20 @@ margin-left:5%;
     font-family: 'Bitter', serif;
     margin-left:5%;
 }
-/*hobbies*/
-#hobbies{
+/*facts*/
+#facts{
     background-color: blueviolet;
     background-image: url("https://www.regulationmatters.uk/wp-content/uploads/2018/01/chess.jpeg");
     background-size:cover;
     opacity:0.7 ;
 }
 
-#hobbies h2{
+#facts h2{
     text-align: center;
     font-size:35px;
     font-family:  'Bitter', serif;
 }
-#hobbies p{
+#facts p{
     padding-bottom:0%;
     font-size: 30px;
     font-family: 'Muli', sans-serif; 
@@ -151,4 +146,5 @@ margin-left:5%;
    
 }
 
+/*This section below is  for the contact me page */
 
