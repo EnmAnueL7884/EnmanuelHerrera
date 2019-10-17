@@ -2,6 +2,7 @@
 body{
     background-color:white;
     margin:0%;
+    paddding:0%;
 }
 /* body */
 
@@ -42,7 +43,7 @@ body{
 }
 /* who */
 #Who{
-    background-color: aquamarine;
+    background-color:#6897E8;
     background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/NB-298_1400x.jpg?v=1565261020") ;
     background-size:cover;
     opacity: 0.8;
@@ -65,7 +66,7 @@ body{
 }
 
 #skill{
-background-color: cadetblue;
+background-color: #808DFF;
 }
 
 #skill img{
@@ -116,10 +117,7 @@ margin-left:5%;
 }
 /*facts*/
 #facts{
-    background-color: blueviolet;
-    background-image: url("https://www.regulationmatters.uk/wp-content/uploads/2018/01/chess.jpeg");
-    background-size:cover;
-    opacity:0.7 ;
+    background-color: #7E68E8;
 }
 
 #facts h2{
@@ -136,7 +134,7 @@ margin-left:5%;
 
 /*footer*/
 .footer{
-    background-color: darkcyan;
+    background-color:#023842;
     padding-bottom: 15%;
 }
 
