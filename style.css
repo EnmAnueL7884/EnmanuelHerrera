@@ -38,15 +38,10 @@ body{
     text-decoration: none;
     font-family:'Roboto Condensed', sans-serif;
 }
-.header{
-    text-decoration:none;
-}
+
 /* who */
 #Who{
-    background-color:#6897E8;
-    background-image: url("https://cdn.shopify.com/s/files/1/2440/7149/products/NB-298_1400x.jpg?v=1565261020") ;
-    background-size:cover;
-    opacity: 0.8;
+    background-color:white-smoke;
 }
 
 #who h1{
@@ -61,7 +56,7 @@ body{
     padding-bottom: 10%;
     padding-left:5%;
     padding-right:5%;
-    font-family: 'Merriweather', serif; 
+    font-family: 'roboto'; 
     margin:0%;
 }
 
@@ -69,10 +64,6 @@ body{
 background-color: #808DFF;
 }
 
-#skill img{
-    padding-left:5%;
-    padding-right:5%; 
-}
 
 #skill h2{
     text-align: center;
@@ -86,12 +77,12 @@ background-color: #808DFF;
     padding-bottom: 0%;
     padding-left: 5%;
     padding-left: 5%;
-    font-family: 'Merriweather', serif;
+    font-family: 'roboto', serif;
 
 }
 #skill ul{
 font-size:24px;
-font-family: 'Merriweather', serif;
+font-family: 'roboto', serif;
 margin-left:5%;
 }
 
@@ -102,7 +93,7 @@ margin-left:5%;
 .ul2{
     font-size:24px;
     padding-bottom:10%;
-    font-family: 'Merriweather', serif; 
+    font-family: 'roboto'; 
     }
     
 .ul2 li{
@@ -128,7 +119,7 @@ margin-left:5%;
 #facts p{
     padding-bottom:0%;
     font-size: 30px;
-    font-family: 'Merriweather', serif;
+    font-family: 'roboto', serif;
     padding: 5%;
 }
 
@@ -136,6 +127,7 @@ margin-left:5%;
 .footer{
     background-color:#023842;
     padding-bottom: 15%;
+    bottom:0;
 }
 
 .footer h3{
